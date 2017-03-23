@@ -3,12 +3,12 @@
 FROM golang
 
 # Copy the local package files to the container's workspace, except thos in .dockerignore
-ADD . /go/src/github.com/thisisdavidbell/gohttphw
+ADD . /go/src/github.com/thisisdavidbell/go-examples/gohttphw
 
 # Build the gohttphw command inside the container.
 # (You may fetch or manage dependencies here,
 # either manually or with a tool like "godep".)
-RUN go install github.com/thisisdavidbell/gohttphw
+RUN go install github.com/thisisdavidbell/go-examples/gohttphw
 
 # Run the hgohttphw command by default when the container starts.
 ENTRYPOINT /go/bin/gohttphw
