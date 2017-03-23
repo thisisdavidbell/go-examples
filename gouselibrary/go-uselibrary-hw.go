@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/thisisdavidbell/go-firstlibrary"
+	"github.com/thisisdavidbell/go-examples/gofirstlibrary"
 )
 
 func main() {
