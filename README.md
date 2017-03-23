@@ -5,6 +5,8 @@ e.g.
 ```
 mkdir mygoworkspace
 cd mygoworkspace
+export GOPATH=$(pwd)
+export PATH=$PATH:$GOPATH/bin
 go get github.com/thisisdavidbell/go-examples/gohttphw
 ```
 
