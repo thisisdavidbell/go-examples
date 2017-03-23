@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Printf(stringutil.Reverse("egakcap a morf mI !oG ,olleH"))
+	fmt.Printf(gofirstlibrary.Reverse("egakcap a morf mI !oG ,olleH"))
 }
